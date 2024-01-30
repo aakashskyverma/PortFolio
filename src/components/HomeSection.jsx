@@ -30,7 +30,7 @@ const HomeSection = () => {
           id="hoverImage"
           src="./assets/images/profile.png"
           className="profile mt-5 img-fluid rounded-circle mx-auto d-block"
-          onMouseOver={() => playSound()} // Assuming playSound is a function
+          //onMouseOver={() => playSound()} // Assuming playSound is a function
           style={{ width: '60%' }}
           alt="..."
         />

@@ -68,11 +68,7 @@ const ContactSection = () => {
         </div>
       </div>
 
-      <div className="row" style={{ backgroundColor: 'black' }}>
-        <div className="col-12">
-          <table className="table-dark">...</table>
-        </div>
-      </div>
+      
     </div>
   );
 };

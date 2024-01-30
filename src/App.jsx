@@ -9,11 +9,12 @@ import ProfilesSection from './components/ProfilesSection';
 import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
 import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
     <>
-    <div style={{ fontFamily: 'Times New Roman, Times, serif' }}>
+    <div style={{ fontFamily: 'Times New Roman, Times, serif', backgroundColor:"black" }}>
       <Navbar />
       <div className="container-fluid mt-5 justify-content-evenly" style={{backgroundColor:"black"}}>
       <HomeSection />
@@ -25,7 +26,7 @@ const App = () => {
      <ContactSection />
       </div>
 
-      {/* Footer component can be added here */}
+      <Footer></Footer>
     </div>
     </>
   );

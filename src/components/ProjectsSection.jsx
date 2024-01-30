@@ -40,7 +40,10 @@ const ProjectsSection = () => {
         {/* Project 3 */}
         <div className="col-md-3 col-sm-5 col-7 pt-3 pb-3 text-white">
           <div className="card mx-auto d-flex justify-content-center bg-dark h-100 text-white">
-            <img src="./assets/images/Portfolio (2).png" className="card-img-top logs" alt="..." />
+            <a href="https://github.com/aakashskyverma/PortFolio">
+            <img src="./assets/images/Portfolio (2).png" className="card-img-top logs" alt="portfolio_png" />
+            </a>
+              
             <div className="card-body">
               <h5 className="card-title">Portfolio</h5>
               <p className="card-text">
