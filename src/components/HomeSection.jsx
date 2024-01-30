@@ -26,9 +26,9 @@ const HomeSection = () => {
         </div>
       </div>
       <div className="col-md-6 mt-5 mb-5">
-        <img
+        <img 
           id="hoverImage"
-          src="/assets/images/profile.png"
+          src="./assets/images/profile.png"
           className="profile mt-5 img-fluid rounded-circle mx-auto d-block"
           onMouseOver={() => playSound()} // Assuming playSound is a function
           style={{ width: '60%' }}
