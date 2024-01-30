@@ -16,7 +16,7 @@ const ProfilesSection = () => {
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark mx-auto d-flex justify-content-center">
               <a href="https://www.linkedin.com/in/aakash-verma-32144a202/" target="_main">
-                <img src="src/assets/images/clogo1.png" className="card-img-top logs" alt="..." />
+                <img src="./assets/images/clogo1.png" className="card-img-top logs" alt="..." />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
@@ -30,7 +30,7 @@ const ProfilesSection = () => {
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark mx-auto d-flex justify-content-center">
               <a href="https://github.com/aakashskyverma" target="_main">
-                <img src="src/assets/images/github-icon.png" className="card-img-top logs" alt="..." />
+                <img src="./assets/images/github-icon.png" className="card-img-top logs" alt="..." />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
@@ -44,7 +44,7 @@ const ProfilesSection = () => {
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark">
               <a href="https://www.hackerrank.com/profile/aakashskyverma" target="_main">
-                <img src="src/assets/images/HackerRank.png" className="card-img-top logs mx-auto d-block rounded " />
+                <img src="./assets/images/HackerRank.png" className="card-img-top logs mx-auto d-block rounded " />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
@@ -58,7 +58,7 @@ const ProfilesSection = () => {
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark mx-auto d-flex justify-content-center">
               <a href="https://auth.geeksforgeeks.org/user/aakashskyverma" target="_main">
-                <img src="src/assets/images/GFG.png" className="card-img-top logs" alt="..." />
+                <img src="./assets/images/GFG.png" className="card-img-top logs" alt="..." />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
@@ -72,7 +72,7 @@ const ProfilesSection = () => {
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark mx-auto d-flex justify-content-center">
               <a href="https://leetcode.com/aakashskyverma/" target="_main">
-                <img src="src/assets/images/leetcode (2).png" className="card-img-top logs" alt="..." />
+                <img src="./assets/images/leetcode (2).png" className="card-img-top logs" alt="..." />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
@@ -86,7 +86,7 @@ const ProfilesSection = () => {
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark">
               <a href="https://www.instagram.com/aakashskyverma/" target="_main">
-                <img src="src/assets/images/insta.png" className="card-img-top logs mx-auto image-fluid" />
+                <img src="./assets/images/insta.png" className="card-img-top logs mx-auto image-fluid" />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">

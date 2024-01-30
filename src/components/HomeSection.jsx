@@ -6,7 +6,7 @@ const HomeSection = () => {
 
   const playSound = () => {
     // Replace 'sci_fi_door-6451.mp3' with your actual sound file
-    const audio = new Audio('src/assets/futuristic-zoom-whoosh-1-183976.mp3');
+    const audio = new Audio('./assets/futuristic-zoom-whoosh-1-183976.mp3');
     audio.autoplay = true;
     audio.play();
   };

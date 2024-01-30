@@ -4,7 +4,7 @@ import React from 'react';
 const AboutSection = () => {
   
   const openResume = () => {
-    const pdfUrl = "src/assets/Aakash_Verma_Resume_.pdf";
+    const pdfUrl = "./assets/Aakash_Verma_Resume_.pdf";
     window.open(pdfUrl, "_blank");
   };
 

@@ -14,7 +14,7 @@ const ProjectsSection = () => {
         {/* Project 1 */}
         <div className="col-md-3 col-sm-5 col-7 pt-3 pb-3 text-white">
           <div className="card mx-auto d-flex justify-content-center bg-dark h-100 text-white">
-            <img src="src/assets/images/project1.jpg" className="card-img-top" alt="..." />
+            <img src="./assets/images/project1.jpg" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Examination</h5>
               <p className="card-text ">
@@ -27,7 +27,7 @@ const ProjectsSection = () => {
         {/* Project 2 */}
         <div className="col-md-3 col-sm-5 col-7 pt-3 pb-3 text-white">
           <div className="card mx-auto d-flex justify-content-center bg-dark h-100 text-white">
-            <img src="src/assets/images/project3.gif" className="card-img-top" alt="..." />
+            <img src="./assets/images/project3.gif" className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">WebLock</h5>
               <p className="card-text">
@@ -40,7 +40,7 @@ const ProjectsSection = () => {
         {/* Project 3 */}
         <div className="col-md-3 col-sm-5 col-7 pt-3 pb-3 text-white">
           <div className="card mx-auto d-flex justify-content-center bg-dark h-100 text-white">
-            <img src="src/assets/images/Portfolio (2).png" className="card-img-top logs" alt="..." />
+            <img src="./assets/images/Portfolio (2).png" className="card-img-top logs" alt="..." />
             <div className="card-body">
               <h5 className="card-title">Portfolio</h5>
               <p className="card-text">
