@@ -1,0 +1,78 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-weight: 400;
+}
+  .navbar ul li a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+   
+}
+
+.navbar ul li a::after
+{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #18dde9;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover::after
+{
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 0px 100px #5ecacfbb; /* Add a subtle box shadow on hover */
+    transform: scale(1.08); /* Scale up the card on hover */
+    transition: box-shadow 0.5s ease, transform 0.5s ease; /* Smooth transition for the effect */
+}
+.card{
+
+    border-radius: 20px;
+}
+
+.profile:hover{
+
+     box-shadow: 0px 0px 100px #18dde9;
+     transform: scale(1.08); /* Scale up the card on hover */
+     transition: box-shadow 0.5s ease, transform 0.5s ease; /* Smooth transition for the effect */
+}
+
+.card-btn:hover{
+    box-shadow: 0px 0px 100px #18dde9;
+    transform: scale(1.08); /* Scale up the card on hover */
+    transition: box-shadow 0.5s ease, transform 0.5s ease; /* Smooth transition for the effect */
+}
+
+.logs{
+
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit:contain;
+    
+}
+.logo{
+
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.logo:hover{
+
+    box-shadow: 0px 0px 100px #a9eff3;
+    transform: scale(1.08); /* Scale up the card on hover */
+    transition: box-shadow 0.5s ease, transform 0.5s ease; /* Smooth transition for the effect */
+}
+
+.card{
+
+    size:50%;
+}
