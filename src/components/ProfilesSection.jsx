@@ -1,9 +1,12 @@
 // ProfilesSection.jsx
-import React from 'react';
+import React from "react";
 
 const ProfilesSection = () => {
   return (
-    <div className="row justify-content-evenly" style={{backgroundColor:"black"}}>
+    <div
+      className="row justify-content-evenly"
+      style={{ backgroundColor: "black" }}
+    >
       <div className="col-md-10">
         <div id="links" className="row pt-md-5 pb-md-3 pb-3">
           <div className="col-12 mt-5 text-center text-white">
@@ -15,8 +18,15 @@ const ProfilesSection = () => {
           {/* LinkedIn */}
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark mx-auto d-flex justify-content-center">
-              <a href="https://www.linkedin.com/in/aakash-verma-32144a202/" target="_main">
-                <img src="./assets/images/clogo1.png" className="card-img-top logs" alt="..." />
+              <a
+                href="https://www.linkedin.com/in/aakash-verma-32144a202/"
+                target="_main"
+              >
+                <img
+                  src="./assets/images/clogo1.png"
+                  className="card-img-top logs"
+                  alt="..."
+                />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
@@ -30,7 +40,11 @@ const ProfilesSection = () => {
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark mx-auto d-flex justify-content-center">
               <a href="https://github.com/aakashskyverma" target="_main">
-                <img src="./assets/images/github-icon.png" className="card-img-top logs" alt="..." />
+                <img
+                  src="./assets/images/github-icon.png"
+                  className="card-img-top logs"
+                  alt="..."
+                />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
@@ -43,8 +57,14 @@ const ProfilesSection = () => {
           {/* HackerRank */}
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark">
-              <a href="https://www.hackerrank.com/profile/aakashskyverma" target="_main">
-                <img src="./assets/images/HackerRank.png" className="card-img-top logs mx-auto d-block rounded " />
+              <a
+                href="https://www.hackerrank.com/profile/aakashskyverma"
+                target="_main"
+              >
+                <img
+                  src="./assets/images/HackerRank.png"
+                  className="card-img-top logs mx-auto d-block rounded "
+                />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
@@ -57,12 +77,21 @@ const ProfilesSection = () => {
           {/* GeeksForGeeks */}
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark mx-auto d-flex justify-content-center">
-              <a href="https://auth.geeksforgeeks.org/user/aakashskyverma" target="_main">
-                <img src="./assets/images/GFG.png" className="card-img-top logs" alt="..." />
+              <a
+                href="https://auth.geeksforgeeks.org/user/aakashskyverma"
+                target="_main"
+              >
+                <img
+                  src="./assets/images/GFG.png"
+                  className="card-img-top logs"
+                  alt="..."
+                />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
-                  <h4 className="fs-md-4 fs-6" style={{ whiteSpace: 'nowrap' }}>GeeksForGeeks</h4>
+                  <h4 className="fs-md-4 fs-6" style={{ whiteSpace: "nowrap" }}>
+                    GeeksForGeeks
+                  </h4>
                 </div>
               </div>
             </div>
@@ -72,7 +101,11 @@ const ProfilesSection = () => {
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark mx-auto d-flex justify-content-center">
               <a href="https://leetcode.com/aakashskyverma/" target="_main">
-                <img src="./assets/images/leetcode (2).png" className="card-img-top logs" alt="..." />
+                <img
+                  src="./assets/images/leetcode (2).png"
+                  className="card-img-top logs"
+                  alt="..."
+                />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">
@@ -85,8 +118,14 @@ const ProfilesSection = () => {
           {/* Instagram */}
           <div className="col pt-3 pb-3 text-white">
             <div className="card bg-dark">
-              <a href="https://www.instagram.com/aakashskyverma/" target="_main">
-                <img src="./assets/images/insta.png" className="card-img-top logs mx-auto image-fluid" />
+              <a
+                href="https://www.instagram.com/aakashskyverma/"
+                target="_main"
+              >
+                <img
+                  src="./assets/images/insta.png"
+                  className="card-img-top logs mx-auto image-fluid"
+                />
               </a>
               <div className="card-body">
                 <div className="card-title text-center fw-bold">

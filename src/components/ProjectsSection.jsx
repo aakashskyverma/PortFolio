@@ -1,5 +1,5 @@
 // ProjectsSection.jsx
-import React from 'react';
+import React from "react";
 
 const ProjectsSection = () => {
   return (
@@ -14,11 +14,21 @@ const ProjectsSection = () => {
         {/* Project 1 */}
         <div className="col-md-3 col-sm-5 col-7 pt-3 pb-3 text-white">
           <div className="card mx-auto d-flex justify-content-center bg-dark h-100 text-white">
-            <img src="./assets/images/project1.jpg" className="card-img-top" alt="..." />
+            <a href="https://github.com/aakashskyverma/weblock" target="_main">
+              <img
+                src="./assets/images/project1.png"
+                className="card-img-top"
+                style={{ marginTop: "90px", marginBottom: "70px" }}
+                alt="..."
+              />
+            </a>
             <div className="card-body">
-              <h5 className="card-title">Examination</h5>
-              <p className="card-text ">
-                Desktop application built in Java for Examination System using MySQL database for efficient management of exams and results.
+              <h5 className="card-title fw-bold">WebLock</h5>
+              <p className="card-text">
+                Weblock is a file encryption & sharing platform which uses a
+                secret key to encryt the files, download it and share via email.
+                This platform also provides decryption feature with the same
+                secret key.
               </p>
             </div>
           </div>
@@ -27,11 +37,22 @@ const ProjectsSection = () => {
         {/* Project 2 */}
         <div className="col-md-3 col-sm-5 col-7 pt-3 pb-3 text-white">
           <div className="card mx-auto d-flex justify-content-center bg-dark h-100 text-white">
-            <img src="./assets/images/project3.gif" className="card-img-top" alt="..." />
+            <a
+              href="https://aakashverma-taskmanagment.netlify.app/"
+              target="_main"
+            >
+              <img
+                src="./assets/images/project2.png"
+                className="card-img-top"
+                alt="..."
+              />
+            </a>
             <div className="card-body">
-              <h5 className="card-title">WebLock</h5>
-              <p className="card-text">
-                WebLock enables users to encrypt and decrypt files using different algorithms and custom keys, apply passwords to PDF files, generate file hashes, and verify file integrity.
+              <h5 className="card-title fw-bold">Task Management System</h5>
+              <p className="card-text ">
+                The Task Management System efficiently handles tasks, providing
+                users with task viewing, updates, and statistics, while admins
+                can assign tasks and access detailed user information.
               </p>
             </div>
           </div>
@@ -40,14 +61,20 @@ const ProjectsSection = () => {
         {/* Project 3 */}
         <div className="col-md-3 col-sm-5 col-7 pt-3 pb-3 text-white">
           <div className="card mx-auto d-flex justify-content-center bg-dark h-100 text-white">
-            <a href="https://github.com/aakashskyverma/PortFolio">
-            <img src="./assets/images/Portfolio (2).png" className="card-img-top logs" alt="portfolio_png" />
+            <a href="https://quiz-app-aakashverma.netlify.app/" target="_main">
+              <img
+                src="./assets/images/project3.png"
+                className="card-img-top logs mt-3 "
+                alt="portfolio_png"
+              />
             </a>
-              
+
             <div className="card-body">
-              <h5 className="card-title">Portfolio</h5>
+              <h5 className="card-title fw-bold">Quiz App</h5>
               <p className="card-text">
-                Building a portfolio website using Bootstrap to showcase skills, projects, and experiences for a professional online presence.
+                The Quiz App allows users to take quizzes and view their scores
+                at the end of each test, providing a straightforward and
+                efficient quiz-taking experience.
               </p>
             </div>
           </div>
